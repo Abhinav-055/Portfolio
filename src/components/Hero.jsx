@@ -124,7 +124,7 @@ const Hero = () => {
           >
             {/* RESUME_LINK: replace with hosted link when ready */}
             <a
-              href="https://tinyurl.com/Abhinav-055"
+              href="https://tinyurl.com/Abhinav-0551"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-3 rounded-lg border-2 border-cyan-400 text-cyan-400 font-semibold hover:bg-cyan-400 hover:text-[#0a0f1e] transition-all duration-300 shadow-[0_0_20px_rgba(0,255,255,0.3)]"
