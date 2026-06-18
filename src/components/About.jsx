@@ -32,7 +32,7 @@ const About = () => {
               pursuing B.Tech in Information Technology at{' '}
               <span className="text-white-text font-medium">VIT Vellore</span>{' '}
               with a CGPA of{' '}
-              <span className="text-accent font-semibold">9.11</span>.
+              <span className="text-accent font-semibold">9.15</span>.
               Experienced in building scalable applications using Python, Go,
               and modern frameworks. Active competitive programmer with keen
               interest in system design and optimization.
