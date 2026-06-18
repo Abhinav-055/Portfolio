@@ -4,24 +4,29 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projects = [
   {
-    title: 'Deribit WebSocket Trading Bot',
+    title: 'API Billing Platform',
     description:
-      'A real-time cryptocurrency trading bot leveraging WebSocket connections to interact with the Deribit exchange API. Supports automated order placement, position management, and live market data streaming.',
-    github: 'https://github.com/Abhinav-055/Deribit-WebSocket-Trading-Bot',
-    /* LIVE_LINK: add when deployed */
+      'A scalable API monetization platform featuring API key management, rate limiting, usage metering, wallet-based billing, and payment integration. Built using an event-driven architecture with NATS JetStream and gRPC services.',
+    github: 'https://github.com/Abhinav-055/api-billing-system',
     live: null,
-    tags: ['Python', 'WebSockets', 'Deribit API'],
+    tags: ['Go', 'NATS JetStream', 'gRPC', 'Couchbase', 'Razorpay'],
   },
   {
-    title: 'LLM Query Processor',
+    title: 'AI Debate Arena',
     description:
-      'An intelligent query processing system powered by Large Language Models. Processes natural language queries and generates structured responses with context-aware understanding and efficient API integration.',
-    github: 'https://github.com/Abhinav-055/Llm_query_processor',
-    /* LIVE_LINK: add when deployed */
+      'A distributed AI debate platform enabling real-time debates between AI agents with distinct personalities. Features GraphQL subscriptions, asynchronous processing with RabbitMQ, and LLM-powered response generation and evaluation.',
+    github: 'https://github.com/Abhinav-055/AI-Debate-Arena',
     live: null,
-    tags: ['Go', 'Redis Pub/Sub', 'OpenAI API'],
+    tags: ['Go', 'GraphQL', 'RabbitMQ', 'PostgreSQL', 'Groq API', 'Docker'],
   },
-  // ADD_PROJECT: Add more projects here
+  {
+    title: 'Vortex - Video Calling App',
+    description:
+      'A modern video conferencing platform supporting real-time calls, meeting scheduling, secure recordings, and authentication. Built with Next.js, Stream SDK, Prisma, and Clerk.',
+    github: 'https://github.com/Abhinav-055/Vortex',
+    live: null,
+    tags: ['Next.js', 'TypeScript', 'Clerk', 'Stream SDK', 'Prisma'],
+  },
 ];
 
 const Projects = () => {
