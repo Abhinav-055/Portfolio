@@ -7,7 +7,7 @@ const educationData = [
     institution: 'Vellore Institute of Technology',
     degree: 'B.Tech in Information Technology',
     period: 'August 2023 – July 2027',
-    grade: 'CGPA: 9.11',
+    grade: 'CGPA: 9.15',
     location: 'Vellore, Tamil Nadu',
   },
   {
